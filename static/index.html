@@ -7,5 +7,14 @@
     <header>
         <h1>Welcome to FireHydrant!</h1>
     </header>
+    <div>
+        <form target="/login">
+            <label id="username">Username:</label>
+            <input type="text" id="username"/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" />
+            <button type="submit">Login</button>
+        </form>
+    </div>
     <footer><p>You are running version {{.Version}}</p></footer>
 </html>
